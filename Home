@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Africa Research Hub | Sustainable Adoption in African HE</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; color:#333; }
+        header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color:white; padding:2rem 0; text-align:center; }
+        nav { background:#f4f4f4; padding:1rem 0; position:sticky; top:0; z-index:100; }
+        nav ul { list-style:none; display:flex; justify-content:center; flex-wrap:wrap; }
+        nav li { margin:0 1.5rem; }
+        nav a { color:#1e3c72; text-decoration:none; font-weight:500; padding:0.5rem 1rem; border-radius:5px; transition:background 0.3s; }
+        nav a:hover { background:#1e3c72; color:white; }
+        .hero { background:#e8f4f8; padding:3rem 2rem; text-align:center; }
+        .hero h1 { font-size:2.5rem; margin-bottom:1rem; color:#1e3c72; }
+        .section { padding:3rem 2rem; max-width:1200px; margin:0 auto; }
+        .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:2rem; }
+        table { width:100%; border-collapse:collapse; margin:2rem 0; background:white; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+        th, td { padding:1rem; text-align:left; border-bottom:1px solid #ddd; }
+        th { background:#1e3c72; color:white; }
+        .cta { background:#28a745; color:white; padding:1rem 2rem; border:none; border-radius:5px; font-size:1.1rem; cursor:pointer; margin:1rem; }
+        footer { background:#333; color:white; text-align:center; padding:2rem; }
+        @media (max-width:768px) { .hero h1 { font-size:1.8rem; } nav ul { flex-direction:column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🖥️ LMS Africa Research Hub</h1>
+        <p>Breaking the Cycle: Sustainable LMS Adoption in African Higher Education</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#survey">Survey</a></li>
+            <li><a href="#frameworks">Frameworks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="section">
+            <h1>Postdoctoral Research: AI-LMS Integration</h1>
+            <p><strong>SLR (154 studies):</strong> 6 barriers → Contextual frameworks for Nigeria's 6 zones & Africa [memory:12]</p>
+            <br>
+            <button class="cta" onclick="alert('LimeSurvey Link: Redirecting...')">📊 Join Instructor Survey</button>
+            <button class="cta" onclick="alert('Collaboration Form...')">🤝 Collaborate</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>👨‍🎓 Postdoctoral Research Fellow</h2>
+        <div class="grid">
+            <div>
+                <h3>Expertise</h3>
+                <ul>
+                    <li>AI-LMS Integration (HCI focus) [memory:19]</li>
+                    <li>PRISMA-ScR Scoping Reviews [memory:2]</li>
+                    <li>African HE (Lagos-based) [user-information]</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Timeline</h3>
+                <p>2023: SLR (154 papers) → 2025: AI Scoping + Survey [memory:5]</p>
+                <p><strong>Target:</strong> 260+ Nigerian universities [memory:4]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <h2>🔬 Key Findings (SLR 2000-2025)</h2>
+        <table>
+            <tr><th>Factor</th><th>% Studies</th><th>African Challenge</th></tr>
+            <tr><td>Infrastructure</td><td>42%</td><td>Power/Internet [web:27]</td></tr>
+            <tr><td>Pedagogy</td><td>31%</td><td>Training Gaps [memory:12]</td></tr>
+            <tr><td>AI Trends</td><td>Emerging</td><td>Chatbots + Analytics [web:23]</td></tr>
+            <tr><td>Institution</td><td>28%</td><td>Policy Support</td></tr>
+        </table>
+        <p><em>2025 Update:</em> Mobile/AI surge post-COVID [web:23]</p>
+    </section>
+
+    <section id="publications" class="section">
+        <h2>📚 Publications & Preprints</h2>
+        <ul>
+            <li><strong>"AI-LMS Scoping: African HE"</strong> (AfriCHI 2026) [memory:16]</li>
+            <li><strong>"LMS Adoption SLR"</strong> (154 studies, PRISMA) [PDF]</li>
+            <li><strong>"HCI Frameworks"</strong> (IST-Africa 2026) [memory:21]</li>
+        </ul>
+        <p><a href="#" class="cta">📥 BibTeX Export</a> | <a href="#">Google Scholar</a></p>
+    </section>
+
+    <section id="survey" class="section">
+        <h2>📋 Africa-Wide Survey</h2>
+        <p><strong>Participants:</strong> Lecturers, IT Staff, Deans (Nigeria Zones) [memory:4]</p>
+        <div style="background:#f8f9fa; padding:2rem; border-radius:10px; text-align:center;">
+            <p>🔒 <strong>Ethics Approved</strong> | LimeSurvey Powered</p>
+            <button class="cta" onclick="alert('Survey: https://your-limesurvey.com')">Start Survey</button>
+        </div>
+    </section>
+
+    <section id="frameworks" class="section">
+        <h2>🏗️ LMS Maturity Framework</h2>
+        <div style="background:#e8f4f8; padding:2rem; border-radius:10px;">
+            <h3>Infra → AI-HCI → Sustainability [memory:22]</h3>
+            <svg width="400" height="200" style="background:white; border-radius:5px;">
+                <rect x="10" y="10" width="100" height="60" fill="#1e3c72" stroke="white" stroke-width="3"/>
+                <text x="60" y="45" fill="white" font-weight="bold" text-anchor="middle">Infra</text>
+                <rect x="150" y="10" width="100" height="60" fill="#28a745" stroke="white" stroke-width="3"/>
+                <text x="200" y="45" fill="white" font-weight="bold" text-anchor="middle">AI-HCI</text>
+                <rect x="290" y="10" width="100" height="60" fill="#ffc107" stroke="white" stroke-width="3"/>
+                <text x="340" y="45" fill="black" font-weight="bold" text-anchor="middle">Sustain</text>
+                <line x1="110" y1="40" x2="150" y2="40" stroke="#ddd" stroke-width="4" marker-end="url(#arrow)"/>
+                <line x1="250" y1="40" x2="290" y2="40" stroke="#ddd" stroke-width="4" marker-end="url(#arrow)"/>
+                <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto"><polygon points="0 0, 10 3, 0 6" fill="#ddd"/></marker></defs>
+            </svg>
+            <p><a href="#" class="cta">📥 PDF Download</a> | <a href="#">LaTeX Source</a></p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>📧 Contact & Updates</h2>
+        <div class="grid">
+            <div>
+                <p><strong>Postdoc Fellow</strong><br>Lagos, Nigeria<br>[your.email@uni.edu]</p>
+                <p>ORCID | ResearchGate</p>
+            </div>
+            <div>
+                <h3>News</h3>
+                <p><strong>IST-Africa 2026:</strong> Abstract due Nov 30 [memory:21]</p>
+                <button class="cta" onclick="alert('Google Form Opened...')">💬 Research Collab?</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LMS Africa Research Hub | Built for Academic Impact | <a href="#" style="color:#ccc;">Privacy</a></p>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', e => {
+                e.preventDefault(); document.querySelector(anchor.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+            });
+        });
+    </script>
+</body>
+</html>
